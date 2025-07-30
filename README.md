@@ -20,26 +20,47 @@ This project aims to uncover key insights about customer behavior, product perfo
 ## 📁 Project Structure
 
 ecommerce-customer-purchase-analysis/
+
 │
+
 ├── data/
+
 │   └── ecommerce_data.csv                # Cleaned final dataset
+
 │
+
 ├── powerbi_dashboard/
+
 │   └── Product_Performance_Report.pbix   # Your Power BI file
+
 │   └── screenshots/
+
 │       ├── sales_overview.png
+
 │       ├── return_analysis.png
+
 │       └── customer_insights.png
+
 │
+
 ├── sql/
+
 │   └── ecommerce_queries.sql             # All your 10+ SQL queries
+
 │
+
 ├── notebooks/                            # Optional: If you clean data in Python
+
 │   └── data_cleaning.ipynb
+
 │
+
 ├── README.md                             # Full project documentation
+
 │
+
 └── requirements.txt                      # Optional, if you use Python
+
 
 
 
@@ -78,6 +99,7 @@ ecommerce-customer-purchase-analysis/
 
 ---
 
+
 ## 📂 SQL Queries
 
 - Total Revenue, Returns & Net Revenue
@@ -101,6 +123,7 @@ Link to: sql/ecommerce_queries.sql
 
 ---
 
+
 ## 🧹 Data Cleaning
 
 Performed in Excel & Python (`data_cleaning.ipynb`) to fix:
@@ -108,7 +131,9 @@ Performed in Excel & Python (`data_cleaning.ipynb`) to fix:
 - Outliers in quantity and price
 - Standardize column formats
 
+
 ---
+
 
 ## 🧠 Insights
 
@@ -117,22 +142,10 @@ Performed in Excel & Python (`data_cleaning.ipynb`) to fix:
 - Top 5 customers contribute **15%+** of all returns.
 - Return rates are highest in **specific categories and countries**.
 
----
-
-## 🧮 SQL Sample Query
-
-```sql
--- Top 10 Returned Products
-SELECT 
-    ProductName,
-    COUNT(*) AS ReturnCount
-FROM orders
-WHERE ReturnFlag = 1
-GROUP BY ProductName
-ORDER BY ReturnCount DESC
-LIMIT 10;
 
 ---
+
+
 
 ### ✅ Next Steps:
 
@@ -143,6 +156,7 @@ LIMIT 10;
 
 Let me know if you'd like me to create this README directly inside your repo or generate code for the `requirements.txt` or SQL queries!
 
+
 ---
 ### 🎯 Insights & Learnings:
 
@@ -150,6 +164,7 @@ Let me know if you'd like me to create this README directly inside your repo or 
 - Some products have high return rates → candidate for quality check
 - Customer base shows long-tail: 1000+ customers bought only once
 - Repeat customers are key to long-term growth
+
 
 ---
 
