@@ -7,7 +7,7 @@ A data analytics project to analyze customer purchases and return patterns in an
 ## 🖥 Dashboard Overview
 
 ### 📍 Sales Overview
-![Sales Overview](<img width="960" height="544" alt="Sales-Performance" src="https://github.com/user-attachments/assets/8b67ca61-c1be-4349-b4c9-ed0025eefbee" />
+![Sales Overview](<img width="960" height="544" alt="Sales-Performance" src="https://github.com/user-attachments/assets/fc02975e-830b-4b1c-a63c-3add5d08914e" />
 )
 
 ### 📍 Return Analysis
@@ -110,27 +110,14 @@ ecommerce-customer-purchase-analysis/
 - 🔹 **Customer Behavior** – Repeat customers, churn rate, high-return users
 - 🔹 **Navigation Buttons** – Switch between pages (Sales, Returns, Customers)
 - 🔹 **Benchmarking** – Color gradient and thresholds for Return Rate %
-   LINK TO: ({
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/pbip/pbipProperties/1.0.0/schema.json",
-  "version": "1.0",
-  "artifacts": [
-    {
-      "report": {
-        "path": "Product_Performance_Return_Analysis.Report"
-      }
-    }
-  ],
-  "settings": {
-    "enableAutoRecovery": true
-  }
-})
+ 
 
 ---
 
 
 ## 🧹 Data Cleaning
 
-Performed in Excel (`[data_cleaning.ipynb](https://1drv.ms/x/c/b6c51eda1fffdcf4/EWy_KSkL3f1ErPfPMVLlRygBlxEWii3L7lJQZ989tiYLMA?e=4Frow6)`) to fix:
+Performed in Excel (https://1drv.ms/x/c/b6c51eda1fffdcf4/EWy_KSkL3f1ErPfPMVLlRygBlxEWii3L7lJQZ989tiYLMA?e=4Frow6) to fix:
 - Missing or duplicate values
 - Outliers in quantity and price
 - Standardize column formats
