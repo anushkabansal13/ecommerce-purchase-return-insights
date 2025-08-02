@@ -4,6 +4,36 @@ A data analytics project to analyze customer purchases and return patterns in an
 
 ---
 
+
+## 📚 Dataset Overview
+
+This project uses a publicly available e-commerce dataset sourced from [Kaggle](https://www.kaggle.com/datasets).
+
+**Dataset Name:** E-Commerce Data 
+**Source:** UCI / Kaggle  
+**Link:** [Click here to view on Kaggle]((https://www.kaggle.com/datasets/carrie1/ecommerce-data/data))  
+**Size:** ~500,000 transactions  
+**Duration:** Dec 2010 – Dec 2011  
+**Country:** 38 countries (UK, France, Netherlands, etc.)
+
+### 🧾 Key Columns Used:
+| Column: InvoiceNo,
+StockCode,
+Description,
+Quantity,
+InvoiceDate,
+UnitPrice,
+CustomerID,
+Country
+
+
+I performed extensive data cleaning (nulls, data types, returns identification) and added new fields like:
+- `TotalPrice = Quantity × UnitPrice`
+- `IsReturn = 1 if InvoiceNo starts with 'C'`
+- `Product_Category` (Simulated via StockCode prefix)
+
+The cleaned data is used for SQL analysis and Power BI dashboarding.
+
 ## 🖥 Dashboard Overview
 
 ### 📍 Sales Overview
@@ -20,42 +50,7 @@ A data analytics project to analyze customer purchases and return patterns in an
 
 ---
 
-## 📁 Project Structure
 
-ecommerce-customer-purchase-analysis/
-
-│
-
-├── data/
-
-│   └── Product_Performance.csv            # Cleaned final dataset
-
-│
-
-├── powerbi_dashboard/
-
-│   └── Product_Performance_Report.pbix   # Your Power BI file
-
-│   └── screenshots/
-
-│       ├── sales_overview.png
-
-│       ├── return_analysis.png
-
-│       └── customer_insights.png
-
-│
-
-├── sql/
-
-│   └──  SQL Analysis.pdf             # SQL queries for KPIs & insights
-│
-
-├── README.md                             # Full project documentation
-
-
-
----
 
 ## 🎯 Objectives
 
