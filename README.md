@@ -37,16 +37,13 @@ The cleaned data is used for SQL analysis and Power BI dashboarding.
 ## 🖥 Dashboard Overview
 
 ### 📍 Sales Overview
-![Sales Overview](<img width="960" height="544" alt="Sales-Performance" src="https://github.com/user-attachments/assets/fc02975e-830b-4b1c-a63c-3add5d08914e" />
-)
+![Sales Overview](<img width="960" height="544" alt="Sales-Performance" src="https://github.com/user-attachments/assets/fc02975e-830b-4b1c-a63c-3add5d08914e" />)
 
 ### 📍 Return Analysis
-![Return Analysis](<img width="968" height="540" alt="Returns-Analysis" src="https://github.com/user-attachments/assets/bad81d61-de4f-4cfa-8378-fed5d221b5a7" />
-)
+![Return Analysis](<img width="968" height="540" alt="Returns-Analysis" src="https://github.com/user-attachments/assets/bad81d61-de4f-4cfa-8378-fed5d221b5a7" />)
 
 ### 📍 Customer Insights
-![Customer Insights](<img width="971" height="544" alt="Customers-Insight" src="https://github.com/user-attachments/assets/c1df3c10-3b13-4126-ab6f-aed6e3661001" />
-)
+![Customer Insights](<img width="971" height="544" alt="Customers-Insight" src="https://github.com/user-attachments/assets/c1df3c10-3b13-4126-ab6f-aed6e3661001" />)
 
 ---
 
