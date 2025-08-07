@@ -41,8 +41,10 @@ The cleaned data is used for SQL analysis and Power BI dashboarding.
 
 ### 📍 Return Analysis
 ![Return Analysis](https://github.com/anushkabansal13/ecommerce-purchase-return-insights/blob/main/Returns-Analysis.png?raw=true)
+
 ### 📍 Customer Insights
-![Customer Insights](<img width="971" height="544" alt="Customers-Insight" src="https://github.com/user-attachments/assets/c1df3c10-3b13-4126-ab6f-aed6e3661001" />)
+![Customer Insights](https://github.com/anushkabansal13/ecommerce-purchase-return-insights/blob/main/Customers-Insight.png?raw=true)
+
 
 ---
 
