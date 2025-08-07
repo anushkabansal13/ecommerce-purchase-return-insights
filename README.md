@@ -37,7 +37,7 @@ The cleaned data is used for SQL analysis and Power BI dashboarding.
 ## 🖥 Dashboard Overview
 
 ### 📍 Sales Overview
-![Sales Overview](<img width="960" height="544" alt="Sales-Performance" src="https://github.com/user-attachments/assets/fc02975e-830b-4b1c-a63c-3add5d08914e" />)
+![Sales Overview](https://github.com/anushkabansal13/ecommerce-purchase-return-insights/blob/main/Sales-Performance.png?raw=true)
 
 ### 📍 Return Analysis
 ![Return Analysis](<img width="968" height="540" alt="Returns-Analysis" src="https://github.com/user-attachments/assets/bad81d61-de4f-4cfa-8378-fed5d221b5a7" />)
