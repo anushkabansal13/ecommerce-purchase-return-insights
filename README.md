@@ -1,5 +1,7 @@
 # 🛒 E-commerce Customer Purchase & Return Rate Analysis
 
+"An e-commerce company noticed increasing return rates and inconsistent revenue growth. My task was to analyze sales, identify top-selling and most-returned products, and provide actionable recommendations for improving revenue and reducing returns."
+
 A data analytics project to analyze customer purchases and return patterns in an e-commerce business. This project leverages **Excel**, **SQL**, and **Power BI** to deliver actionable insights on **sales performance**, **customer behavior**, and **product returns**.
 
 ---
